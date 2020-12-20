@@ -1,0 +1,128 @@
+
+@media (max-width:992px){
+    /*
+    ===============
+    HEADER AREA
+    ===============
+    */
+    /*Top Header*/
+    .top-content{
+        display:block;
+    }
+    .top-left ul {
+        display: block;
+       
+    }
+    .top-right ul{
+        justify-content: center;
+    }
+    
+    .top-left ul li, .top-right ul li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        justify-content: center;
+    }
+    /*Main Menu*/
+    .header{
+        position: static;
+    }
+    .fixed .header{
+        position: static;;
+        top:0;
+    }    
+    /*Slider*/
+    .slider{
+        padding-top:0px;
+    }
+    .slider-content{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .slider-arrow .left-arrow, .slider-arrow .right-arrow {
+        font-size: 30px;
+    }
+    .slider-arrow .left-arrow {
+        left: 20px;
+    }
+    /*
+    ===============
+    ABOUT AREA
+    ===============
+    */
+    .about{
+        margin-top: 0;
+    }
+    /*About Left Area*/
+    /*
+    ===============
+     WORK AREA START
+    ===============
+    */
+    .work {
+        padding-top: 40px;
+    }
+    /*Bottom Feltaring Work Area Start*/
+    .work-nav {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    /*
+    ===============
+     TAB AREA START
+    ===============
+    */
+    .tab-area {
+        margin-top: 60px;
+    }
+     /*Tab List*/
+     .our-nav-item li a{
+        padding: 22px;
+     }
+    /*Tab Content*/
+    .our-tab-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+     /*
+    ===============
+     BIG BANNER AREA START
+    ===============
+    */
+
+   /*big-button*/
+   .banner-content .our-btn{
+       padding: 11px 10px;
+       font-style: 16px;
+   }
+    /*
+    ===============
+    TEAM MAMBER AREA START
+    ===============
+    */
+    .team {
+        padding-top: 90px;
+        
+    }
+     /*Team Hover List*/
+     .team-content h4 {
+        font-size: 18px;
+    }
+    .team-content p {
+        font-size: 11px;
+    }
+    .social ul li a {
+        padding: 6px 6px;
+    }
+
+    /*
+    ===============
+    BLOG  AREA START
+    ===============
+    */
+    
+
+}
